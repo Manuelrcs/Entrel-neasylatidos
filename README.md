@@ -131,7 +131,7 @@
       <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4" class="featured-img" alt="Auriculares">
       <h2>Música</h2>
       <p>Me encanta escuchar de todo. Aquí comparto algunas de mis canciones favoritas:</p>
-      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DX6ALfRKlHn1t?utm_source=generator" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <iframe style="border-radius:12px" src="https://open.spotify.com/playlist/74vDiz4JVWhul0rcmdArmU?si=qu7MfBbOStK1VlTUUqJElQ&pi=0whosPssRAm6k_source=generator" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     </section>
 
     <section class="card fade-in">
