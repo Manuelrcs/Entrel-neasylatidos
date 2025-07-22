@@ -145,12 +145,14 @@
       <img src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c" class="featured-img" alt="Filosofía y estrellas">
       <h2>Filosofía</h2>
       <p>Mis pensamientos favoritos:</p>
-      <p><em>"Todos los días construyes tu identidad"</em></p>
+      <p><em>"Todos los días construyes tu identidad"
+¿El hombre es bueno o malo por naturaleza?
+El filosofo Maquiavelo menciona que es malo por naturaleza, ya que se dejaba guiar por sus necesidades, el hombre primitivo solo buscaba sobrevivir a como fuera forma, teniendo en cuenta esto no le importaba si generaba un mal en el projimo </em></p>
       <p><strong>Autores:</strong> Camus, Séneca</p>
     </section>
 
     <section class="card fade-in">
-      <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f" class="featured-img" alt="Lectura y libros">
+      <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f" class="featured-img" alt="Lectura y libros">ⁿ
       <h2>Lecturas</h2>
       <p>Algunos de mis libros y autores favoritos:</p>
       <ul>
