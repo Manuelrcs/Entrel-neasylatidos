@@ -1,0 +1,204 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Entre Líneas y Latidos</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Inter&display=swap" rel="stylesheet"/>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #f9f5ef;
+      color: #1f2d3d;
+    }
+    header {
+      background-color: #1f2d3d;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+      opacity: 0.85;
+    }
+    .section-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .card {
+      background-color: white;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.5rem;
+      color: #1f2d3d;
+    }
+    .card p {
+      margin: 0.5rem 0;
+      line-height: 1.5;
+    }
+    .featured-img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+      object-fit: cover;
+      height: 180px;
+    }
+    iframe {
+      margin-top: 1rem;
+      width: 100%;
+      height: 80px;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+      background-color: #1f2d3d;
+      color: white;
+    }
+    .contact-form {
+      max-width: 600px;
+      margin: 3rem auto;
+      padding: 2rem;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+    .contact-form label {
+      display: block;
+      margin-top: 1rem;
+      font-weight: bold;
+    }
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 0.8rem;
+      margin-top: 0.3rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+    .contact-form button {
+      margin-top: 1.5rem;
+      padding: 0.8rem 1.5rem;
+      background-color: #1f2d3d;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+    }
+    .fade-in {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    }
+    .fade-in.visible {
+      opacity: 1;
+      transform: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Entre Líneas y Latidos</h1>
+    <p>"Todos los días construyes tu identidad"</p>
+  </header>
+
+  <main class="section-grid">
+    <section class="card fade-in">
+      <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4" class="featured-img" alt="Auriculares">
+      <h2>Música</h2>
+      <p>Me encanta escuchar de todo. Aquí comparto algunas de mis canciones favoritas:</p>
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DX6ALfRKlHn1t?utm_source=generator" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </section>
+
+    <section class="card fade-in">
+      <img src="https://images.unsplash.com/photo-1496317899792-9d7dbcd928a1" class="featured-img" alt="Arte y pinceles">
+      <h2>Arte</h2>
+      <p>Me gusta aprender sobre arte. A veces lo practico, pero sobre todo me encanta observarlo y sentirlo.</p>
+      <p><strong>Inspiraciones:</strong> Camus, Séneca</p>
+    </section>
+
+    <section class="card fade-in">
+      <img src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c" class="featured-img" alt="Filosofía y estrellas">
+      <h2>Filosofía</h2>
+      <p>Mis pensamientos favoritos:</p>
+      <p><em>"Todos los días construyes tu identidad"</em></p>
+      <p><strong>Autores:</strong> Camus, Séneca</p>
+    </section>
+
+    <section class="card fade-in">
+      <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f" class="featured-img" alt="Lectura y libros">
+      <h2>Lecturas</h2>
+      <p>Algunos de mis libros y autores favoritos:</p>
+      <ul>
+        <li>El extranjero</li>
+        <li>Juan Rulfo</li>
+        <li>Mario Vargas Llosa</li>
+        <li>Julio Cortázar</li>
+      </ul>
+    </section>
+
+    <section class="card fade-in">
+      <img src="https://images.unsplash.com/photo-1617019114583-82d3beacb2fb" class="featured-img" alt="Ferrari">
+      <h2>Fórmula 1</h2>
+      <p>Me encanta ver la F1. Mi escudería favorita es <strong>Ferrari</strong>.</p>
+    </section>
+  </main>
+
+  <section class="contact-form fade-in">
+    <h2>Contáctame</h2>
+    <form>
+      <label for="nombre">Nombre</label>
+      <input type="text" id="nombre" name="nombre" required />
+
+      <label for="email">Correo electrónico</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="mensaje">Mensaje</label>
+      <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    © 2025 Entre Líneas y Latidos · Hecho con pasión y café ☕
+  </footer>
+
+  <script>
+    const fadeInElements = document.querySelectorAll('.fade-in');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1 });
+
+    fadeInElements.forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>
